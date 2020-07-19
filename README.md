@@ -3,6 +3,7 @@
 ### Моделирование сигналов в python
 
 Интерфейс:
+
 ![](https://github.com/weider938/ask_fsk_psk-model/blob/master/imag/gui.PNG)
 
 
