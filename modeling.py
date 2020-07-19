@@ -1,4 +1,3 @@
-# author: U.A.V.
 # coding: utf-8
 
 import sys
@@ -100,7 +99,7 @@ class MyWin(QtWidgets.QMainWindow):
                 ax_1.set(title=(string_to_axes))
                 ax_1.stem(t, self.signal, use_line_collection=True)
 
-                pes = []  # Первичный электронный сигнал
+                pes = []  # Первичный электрический сигнал
                 try:
                     for i, sample in enumerate(self.signal):
                         if float(sample) == Amplitude:
@@ -207,12 +206,12 @@ class MyWin(QtWidgets.QMainWindow):
                 ax_4.set(title='Спектр сигнала')
                 t_spec = arange(0, float(len(noised_spectrum)) * 4, 4)
                 ax_4.plot(t_spec, abs(noised_spectrum), lw=0.7)
-
+                
                 try:
 
                     fname_signal = "signal_" + self.type_sk + ".pcm"
                     fname_noised_signal = "noised_signal_" + self.type_sk + ".pcm"
-                    mmm = 1000
+                    mmm = 1000  # множитель
 
                     ###
                     with open(fname_signal, "wt") as f:
