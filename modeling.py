@@ -1,5 +1,6 @@
-# coding: utf-8
-
+# Coding: utf-8
+# Author: U.A.V.
+# License: MIT
 import sys
 import math
 import numpy as np
