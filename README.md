@@ -4,12 +4,12 @@
 
 Интерфейс:
 
-![](https://github.com/weider938/ask_fsk_psk-model/blob/master/imag/gui.PNG)
+![](https://github.com/uav-profile/ask_fsk_psk-model/blob/master/imag/gui.PNG)
 
 
 
 ### Амплитудная, частотная и фазовая телеграфии.
-![](https://github.com/weider938/ask_fsk_psk-model/blob/master/imag/ask.PNG)
+![](https://github.com/uav-profile/ask_fsk_psk-model/blob/master/imag/ask.PNG)
 
 ### Кроме визуального отображения в каталоге со скриптом будут сохранены файлы с расширением .pcm
 
@@ -22,9 +22,9 @@
  - импульсная
  - аддитивная гармоническая
  
- ![](https://github.com/weider938/ask_fsk_psk-model/blob/master/imag/awgn.PNG)
+ ![](https://github.com/uav-profile/ask_fsk_psk-model/blob/master/imag/awgn.PNG)
  
- ![](https://github.com/weider938/ask_fsk_psk-model/blob/master/imag/imp.PNG)
+ ![](https://github.com/uav-profile/ask_fsk_psk-model/blob/master/imag/imp.PNG)
  
- ![](https://github.com/weider938/ask_fsk_psk-model/blob/master/imag/add_harm.PNG)
+ ![](https://github.com/uav-profile/ask_fsk_psk-model/blob/master/imag/add_harm.PNG)
 
